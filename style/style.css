@@ -60,7 +60,7 @@ ul {
 }
 
 header {
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -68,6 +68,7 @@ header {
 	font-family: 'Roboto', sans-serif;
 	/*border-bottom: 1px solid #e5e5e5;*/
 	padding-top: 40px;
+  /*background-color: #eeeeee;*/
 	/*background-color: #fff;*/
 }
 
@@ -106,8 +107,14 @@ header nav a:nth-child(2) {
 }
 
 a:hover {
-	background-color: #303030;
-	color: #eeeeee;
+	/*background-color: #303030;*/
+	color: #e10011;
+}
+
+.wrapper-gradient {
+  background: url("../images/bg_gradient.png") no-repeat;
+  background-size: auto 120%;
+  background-position: 50% 20%;
 }
 
 .slider-info, .slider-image {
@@ -140,10 +147,69 @@ a:hover {
 	font-family: Roboto, sans-serif;
 	font-weight: 700;
 	line-height: 2;
-	color: #e10011;
+	/*color: #e10011;*/
 }
 
 .slider-image {
 	margin-left: 100px;
 }
+
+.slider-btn ul {
+  text-align: center;
+  padding: 50px 0 100px;
+}
+
+.slider-btn ul li {
+  display: inline-block;
+  margin-left: 9px;
+}
+
+.product {
+  padding: 114px 72px 72px;
+  text-align: center;
+  background-color: #fff;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.product-info {
+  margin-bottom: 70px;
+}
+.product-info p {
+  width: 555px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.product-info img {
+  margin: 10px;
+}
+
+.product-images div {
+  display: inline-block;
+}
+
+.product-image:nth-child(2),
+.product-image:nth-child(4),
+.product-image:nth-child(5) {
+  margin-left: 30px;
+}
+
+.product-image:nth-child(1),
+.product-image:nth-child(2) {
+  margin-bottom: 35px;
+}
+
+.product-image a:hover {
+  background-color: red;
+}
+
+
+
 /*что бы не схлопнулся родительский с флоатом внутри*/
