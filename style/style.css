@@ -19,9 +19,9 @@ body {
 	box-sizing: border-box;
 	/*font-family: 'Open Sans', Arial, sans-serif;*/
 	font-size: 12px;
-	/*color: #f0f0f0;*/
-	background-color: #f0f0f0;
-	/*padding-top: 220px;*/
+	color: #303030;
+	background-color: #eeeeee;
+	padding-top: 189px;
 }
 
 *,
@@ -36,6 +36,8 @@ h1, h2, h3, h4 {
 
 a {
 	text-decoration: none;
+	color: #303030;
+	transition: all 0.3s;
 }
 
 p {
@@ -51,64 +53,97 @@ ul {
 	list-style: none;
 }
 
-/*
 .holder::after {
 	content: '';
 	display: block;
 	clear: both;
 }
-*/
-/*
 
 header {
 	position: fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
-	height: 120px;
-	border-bottom: 1px solid #e5e5e5;
-	padding-top: 30px;
-	background-color: #fff;
+	height: 189px;
+	font-family: 'Roboto', sans-serif;
+	/*border-bottom: 1px solid #e5e5e5;*/
+	padding-top: 40px;
+	/*background-color: #fff;*/
 }
-*/
-/*
 
 .wrapper {
-	width: 1024px;
+	width: 1198px;
 	margin: 0 auto;
 }
-*/
-/*
 
 header a.logo {
-	font-family: 'Trebuchet MS', Arial, sans-serif;
-	font-size: 51px;
-	color: #313131;
+	/*font-family: 'slim_joeregular', Arial, sans-serif;*/
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 24px;
 }
-*/
-/*
 header nav {
 	float: right;
-	padding-top: 15px;
+	padding-top: 0;
+	color: #303030;
 }
-*/
-/*
 header nav a {
 	display: inline-block;
-	font-size: 23px;
-	color: #333333;
-	padding: 0 20px;
-	margin-left: 6px;
-	transition: all 0.3s;
-	line-height: 36px;
-}
-*/
-/*
-header nav a:hover {
-	background-color: #373737;
-	color: #ffffff;
-}
-*/
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-top: 5px;
 
+	/*padding: 0 20px;*/
+	/*margin-left: 6px;*/
 
+	/*line-height: 36px;*/
+}
+
+header nav a:nth-child(2) {
+	margin: 0 38px 0 51px;
+}
+
+a:hover {
+	background-color: #303030;
+	color: #eeeeee;
+}
+
+.slider-info, .slider-image {
+	display: inline-block;
+}
+
+.slider-info {
+	width: 615px;
+	padding-right: 10px;
+	text-align: right;
+
+}
+
+.slider-info h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 150px;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+.slider-info p {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.slider-info a {
+	font-size: 24px;
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	line-height: 2;
+	color: #e10011;
+}
+
+.slider-image {
+	margin-left: 100px;
+}
 /*что бы не схлопнулся родительский с флоатом внутри*/
